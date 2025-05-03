@@ -52,7 +52,7 @@ http://127.0.0.1:5000/
 
 Below is a preview of the phishing detector web interface:
 
-![Homepage Screenshot]('https://github.com/abhiiii-04/phishing-detector/blob/main/homepage_phishing_detection.jpg')
+![Homepage Screenshot]('homepage_phishing_detection.jpg')
 
 
 📜 License
