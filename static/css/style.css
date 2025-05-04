@@ -1,0 +1,124 @@
+/* Modern Futuristic AI Style */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 40px 50px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    text-align: center;
+    width: 600px;
+    max-width: 90%;
+    animation: fadeIn 1s ease-in-out;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #00ffe7;
+    text-shadow: 0 0 5px #00ffe7;
+}
+
+input[type="text"] {
+    padding: 14px;
+    width: 80%;
+    border: none;
+    border-radius: 8px;
+    font-size: 1em;
+    margin-bottom: 20px;
+    outline: none;
+    background-color: #ffffff;
+    color: #333;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.2);
+}
+
+button {
+    padding: 12px 30px;
+    font-size: 1em;
+    background-color: #00ffe7;
+    color: #000;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #00d6c7;
+    color: #fff;
+}
+
+.safe {
+    color: #00ff88;
+    font-size: 1.3em;
+    margin-top: 20px;
+    text-shadow: 0 0 5px #00ff88;
+}
+
+.phishing {
+    color: #ff4d4d;
+    font-size: 1.3em;
+    margin-top: 20px;
+    text-shadow: 0 0 5px #ff4d4d;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+footer {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    color: #ffffffa6;
+    font-size: 0.9em;
+    font-weight: 300;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+}
+.result-box {
+    margin-top: 25px;
+    padding: 20px;
+    border-radius: 12px;
+    font-size: 1.3em;
+    font-weight: bold;
+    animation: fadeInResult 0.8s ease;
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.2);
+}
+
+.safe-box {
+    background-color: rgba(0, 255, 136, 0.1);
+    border: 1px solid #00ff88;
+    color: #00ff88;
+}
+
+.phishing-box {
+    background-color: rgba(255, 77, 77, 0.1);
+    border: 1px solid #ff4d4d;
+    color: #ff4d4d;
+}
+
+@keyframes fadeInResult {
+    from { opacity: 0; transform: scale(0.95); }
+    to { opacity: 1; transform: scale(1); }
+}
