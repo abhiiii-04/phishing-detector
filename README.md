@@ -1,14 +1,17 @@
-# phishing-detector
 
-🛡️ AI-Powered Phishing Website Detector
+# 🛡️ AI-Powered Phishing Website Detector
 
 A Flask-based web application that detects phishing websites using a trained machine learning model.
 
 🚀 Features
-✅ Detects phishing sites based on URL patterns.
-✅ Uses an AI model trained with TensorFlow/Keras.
-✅ Simple Flask web app for URL checking.
-✅ Optional: Convert into a Chrome extension.
+
+  ✅ Detects phishing sites based on URL patterns.
+  
+  ✅ Uses an AI model trained with TensorFlow/Keras.
+
+  ✅ Simple Flask web app for URL checking.
+  
+  ✅ Optional: Convert into a Chrome extension.
 
 🛠️ Tech Stack
 Backend: Python, Flask, TensorFlow/Keras
@@ -33,20 +36,42 @@ Project Structure
   ├── README.md              # Project documentation
  
 
-⚡ Installation & Usage
+# ⚡ Installation & Setup
+
 To run locally: 
-1️⃣ Clone the repository:
-git clone <repo-url>
-cd phishing-detector
 
-2️⃣ Install dependencies:
-pip install -r requirements.txt
+1️⃣ Clone the repository
+  
+  git clone <repo-url>
+  
+  cd phishing-detector
 
-3️⃣ Run the Flask app:
-python app.py
+2️⃣ (Recommended) Create and activate a virtual environment
+  
+  python -m venv venv
 
-4️⃣ Open in browser:
-http://127.0.0.1:5000/
+Activate:
+
+Windows:
+  
+  venv\Scripts\activate
+
+macOS/Linux:
+  
+  source venv/bin/activate
+
+3️⃣ Install dependencies
+
+  pip install -r requirements.txt
+
+4️⃣ Run the Flask app
+  
+  python app.py
+
+5️⃣ Open in your browser
+
+  http://127.0.0.1:5000/
+
 
 ## 🖼️ App Preview
 
