@@ -1,0 +1,36 @@
+# Known Safe Domains - Whitelist
+# UAE Domains
+nidoos.ae
+etisalat.ae
+du.ae
+emirates.com
+adcb.com
+emiratesnbd.com
+government.ae
+khaleejtimes.com
+gulfnews.com
+thenationalnews.com
+dubaiairports.ae
+amazon.ae
+noon.com
+careem.com
+talabat.com
+
+# Global Trusted Domains
+google.com
+youtube.com
+facebook.com
+instagram.com
+twitter.com
+linkedin.com
+microsoft.com
+apple.com
+amazon.com
+netflix.com
+github.com
+stackoverflow.com
+wikipedia.org
+reddit.com
+bbc.com
+cnn.com
+nytimes.com
